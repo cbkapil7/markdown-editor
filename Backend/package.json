@@ -1,0 +1,22 @@
+{
+  "name": "markdown",
+  "version": "1.0.0",
+  "description": "Markdown Editor with Socket.io",
+  "main": "Server.js",
+  "type": "module",
+  "scripts": {
+    "test": "node Server.js"
+  },
+  "keywords": [
+    "markdown"
+  ],
+  "author": "kapil",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "http": "^0.0.1-security",
+    "marked": "^13.0.1",
+    "socket.io": "^4.7.5"
+  }
+}
